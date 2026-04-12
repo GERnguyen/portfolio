@@ -1,11 +1,14 @@
 import { ArrowUpRight, Github } from "lucide-react";
 import { AnimatedBorderButton } from "@/components/AnimatedBorderButton";
+
+const ASSET_BASE_URL = import.meta.env.BASE_URL;
+
 const projects = [
   {
     title: "Socially - Social Media Website",
     description:
       "A modern social media platform built with Next.js and Prisma, featuring user authentication via Clerk, real-time interactions, and integrated image uploads with UploadThing. ",
-    image: "/projects/project1.png",
+    image: `${ASSET_BASE_URL}projects/project1.png`,
     tags: ["React", "Next.js", "Typescript", "Prisma", "Tailwind"],
     link: "https://social-app-nextjs-xi.vercel.app/",
     github: "https://github.com/GERnguyen/social-app-nextjs",
@@ -14,7 +17,7 @@ const projects = [
     title: "Lumina - E Learning Platform",
     description:
       "A comprehensive web-based e-learning ecosystem featuring a robust administrative dashboard for instructors and an intuitive learning interface for students. The platform handles complex workflows, including multi-step course creation, dynamic content delivery, and integrated payment processing.",
-    image: "/projects/project2.png",
+    image: `${ASSET_BASE_URL}projects/project2.png`,
     tags: ["React", "NodeJS", "TypeScript", "Tailwind", "TypeORM", "MySQL"],
     link: "https://lumina-elearning.vercel.app/",
     github: "https://github.com/GERnguyen/lumina-fe-oose",
@@ -23,7 +26,7 @@ const projects = [
     title: "Lumina Mobile Native - E Learning Mobile App",
     description:
       "A cross-platform mobile application designed to bring the Lumina learning experience to iOS and Android. It focuses on high-performance content delivery, on-the-go learning tracking, and a native-feel interface optimized for mobile interactions.",
-    image: "/projects/project3.png",
+    image: `${ASSET_BASE_URL}projects/project3.png`,
     tags: [
       "React Native",
       "Expo",
@@ -39,7 +42,7 @@ const projects = [
     title: "CoCoCord - Discord Clone",
     description:
       "Built the client-side logic utilizing Vanilla JS and JSP. Managed direct DOM manipulations and optimized client state effectively without relying on external frameworks. Integrated WebSockets to instantly sync messages, notifications, and user presence (online/offline, typing status) across multiple clients.",
-    image: "/projects/project4.gif",
+    image: `${ASSET_BASE_URL}projects/project4.gif`,
     tags: [
       "Vanilla JavaScript (ES6+)",
       "HTML5",
@@ -55,7 +58,7 @@ const projects = [
     title: "PyGit - Git clone in Python",
     description:
       "A lightweight implementation of the Git version control system built from scratch in Python. This project delves into the internals of Git, focusing on how data is stored, tracked, and managed through low-level file manipulations. It provides a CLI for core versioning operations, mimicking the behavior of the original Git.",
-    image: "/projects/project5.png",
+    image: `${ASSET_BASE_URL}projects/project5.png`,
     tags: ["Python", "Git", "CLI"],
     link: "#",
     github: "https://github.com/GERnguyen/pygit-git-clone",
@@ -64,7 +67,7 @@ const projects = [
     title: "Kaibi - Backend Server from scratch",
     description:
       "Kaibi is a lightweight, low-level web framework built entirely from scratch using Python, without relying on any third-party web libraries. The project serves as a deep dive into the internals of the HTTP protocol, simulating the complete lifecycle of a web request. From managing raw TCP socket connections to parsing headers and delivering static assets, Kaibi demonstrates a fundamental understanding of how modern web servers operate under the hood.",
-    image: "/projects/project6.png",
+    image: `${ASSET_BASE_URL}projects/project6.png`,
     tags: ["Python", "socket", "threading", "TCP/IP", "HTTP protocol"],
     link: "#",
     github: "https://github.com/GERnguyen/pygit-git-clone",
