@@ -5,6 +5,23 @@ const ASSET_BASE_URL = import.meta.env.BASE_URL;
 
 const projects = [
   {
+    title: "ZeetCode - 1 vs 1 Coding Battle Platform",
+    description:
+      "A competitive programming platform where users can practice coding problems, submit Python/C++ solutions to a Docker-based judge, and compete in real-time ranked or private 1 vs 1 coding battles.",
+    image: `${ASSET_BASE_URL}projects/project7.png`,
+    tags: [
+      "TypeScript",
+      "NodeJS",
+      "Tailwind",
+      "Docker",
+      "PostgreSQL",
+      "MongoDB",
+      "BullMQ",
+    ],
+    link: "https://zeetcode.kaitech.id.vn",
+    github: "https://github.com/GERnguyen/zeetcode",
+  },
+  {
     title: "Socially - Social Media Website",
     description:
       "A modern social media platform built with Next.js and Prisma, featuring user authentication via Clerk, real-time interactions, and integrated image uploads with UploadThing. ",

@@ -3,7 +3,6 @@ const experiences = [
     period: "2023 — Present",
     role: "HCMC University of Technology and Egineering",
     company: "Software Engineering",
-    description: "GPA: 3.0 / 4.0",
     technologies: [],
     current: true,
   },
